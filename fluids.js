@@ -14,7 +14,7 @@ const fluids = [
 						{ electrolyte: "Lactate", amount: 28, unit: "mEq", per: {vol: 1, type: "L"} }
 					],
 		osmolarity: {value: 275, unit: "mOsm", per: {vol: 1, type: "L"}},
-		hasCaloricValue: null
+		hasCaloricValue: false
 	},
 	{
 		name: "0.9% Sodium Chloride",
@@ -24,7 +24,7 @@ const fluids = [
 						{electrolyte: "Chloride", amount: 154, unit: "mEq", per: {vol: 1, type: "L"} }
 						],
 		osmolarity: { value: 308, unit: "mOsm", per: {vol: 1, type: "L"} },
-		hasCaloricValue: null
+		hasCaloricValue: false
 	},
 	{
 		name: "0.45% Sodium Chloride",
@@ -34,7 +34,7 @@ const fluids = [
 						{electrolyte: "Chloride", amount: 77, unit: "mEq", per: {vol: 1, type: "L"} }
 						],
 		osmolarity: { value: 154, unit: "mOsm", per: {vol: 1, type: "L"} },
-		hasCaloricValue: null
+		hasCaloricValue: false
 	},
 	{
 		name: "0.225% Sodium Chloride",
@@ -44,11 +44,12 @@ const fluids = [
 						{electrolyte: "Chloride", amount: 38.5, unit: "mEq", per: {vol: 1, type: "L"} }
 						],
 		osmolarity: { value: 77, unit: "mOsm", per: {vol: 1, type: "L"} },
-		hasCaloricValue: null
+		hasCaloricValue: false
 	},
 	{
 		name: "Dextrose 5% in Water",
 		possibleNames: ["D5W", "D5%W", "Dextrose 5% in Water", "D5", "D5%", "Dextrose 5%", "Dextrose5%"],
+		hasCaloricValue: true
 	}
 ];
 /*
