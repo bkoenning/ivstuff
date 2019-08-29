@@ -1,5 +1,6 @@
 const fluid = require("./fluids.js");
-console.log(fluid);
+console.log(fluid["lactatedRingers"]["containsCompounds"]["sodiumChloride"]);
+
 
 
 
