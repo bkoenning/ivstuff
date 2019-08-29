@@ -10,4 +10,4 @@ const elements = {
     }
 };
 
-module.export = elements;
+module.exports = elements;
