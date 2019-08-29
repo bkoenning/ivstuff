@@ -1,0 +1,21 @@
+ul {
+	background: #3b7cc4;
+	padding: 0px;
+	list-style-type: upper-alpha;
+	overflow: hidden;
+	max-width: 250px;
+}
+
+li {
+	padding: 5px;
+	border-top-style: groove;
+	border-bottom-style: groove;
+	border-color: #d0bfbb;
+	color: #ffffff;
+	font-family: "Verdana";
+	font-size: 14px;
+}
+
+li:hover {
+	background-color: #38b1c9;
+}
