@@ -1,4 +1,5 @@
 'use strict'
+const compounds = require("./compounds.js");
 const fluids = { lactatedRingers: {
         name: "Lactated Ringers",
 		possibleNames: ["LR", "Lactated Ringers"],
@@ -21,6 +22,10 @@ const fluids = { lactatedRingers: {
 					],
 		osmolarity: {value: 275, unit: "mOsm", per: {vol: 1, type: "L"}},
 		hasCaloricValue: false
+		getVolumeByCompound: function(compound, amount, volumeType) {
+		    let convert = this["containsCompounds"][compound];
+		    
+		}
 	},
 	normalsodiumchloride: {
 		name: "0.9% Sodium Chloride",
@@ -58,7 +63,11 @@ const fluids = { lactatedRingers: {
 		hasCaloricValue: true
 	}
 };
-module.exports = fluids;
+
+let sampleFluidContents = fluids["lactatedRingers"]["containsCompounds"];
+console.log(Object.getOwnPropertyNames(sampleFluidContents)); 
+
+
 /*
 let s = "sodium";
 let regS = RegExp(s.trim(), "ig");
