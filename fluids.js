@@ -13,16 +13,18 @@ const fluids = [
 						{ electrolyte: "Chloride", amount: 110, unit: "mEq", per: {vol: 1, type: "L"} },
 						{ electrolyte: "Lactate", amount: 28, unit: "mEq", per: {vol: 1, type: "L"} }
 					],
-		osmolarity: {value: 275, unit: "mOsm", per: {vol: 1, type: "L"} }
+		osmolarity: {value: 275, unit: "mOsm", per: {vol: 1, type: "L"}},
+		hasCaloricValue: null
 	},
 	{
 		name: "0.9% Sodium Chloride",
 		possibleNames: ["Normal Saline", "0.9% NS", "NS", "0.9%NS", "0.9% Sodium Chloride", "0.9%Sodium Chloride", "FNS"],
 		containsCompounds: [ { compound: "Sodium Chloride", amount: 0.9, unit: "g", per: {vol: 100, type: "mL"} } ],
-		containsElectrolytes: [ {electrolyte: "Sodium", amount: 77, unit: "mEq", per: {vol: 1, type: "L"} },
-						{electrolyte: "Chloride", amount: 77, unit: "mEq", per: {vol: 1, type: "L"} }
+		containsElectrolytes: [ {electrolyte: "Sodium", amount: 154, unit: "mEq", per: {vol: 1, type: "L"} },
+						{electrolyte: "Chloride", amount: 154, unit: "mEq", per: {vol: 1, type: "L"} }
 						],
-		osmolarity: { value: 308, unit: "mOsm", per: {vol: 1, type: "L"} }
+		osmolarity: { value: 308, unit: "mOsm", per: {vol: 1, type: "L"} },
+		hasCaloricValue: null
 	},
 	{
 		name: "0.45% Sodium Chloride",
@@ -31,7 +33,8 @@ const fluids = [
 		containsElectrolytes: [ {electrolyte: "Sodium", amount: 77, unit: "mEq", per: {vol: 1, type: "L"} },
 						{electrolyte: "Chloride", amount: 77, unit: "mEq", per: {vol: 1, type: "L"} }
 						],
-		osmolarity: { value: 154, unit: "mOsm", per: {vol: 1, type: "L"} }
+		osmolarity: { value: 154, unit: "mOsm", per: {vol: 1, type: "L"} },
+		hasCaloricValue: null
 	},
 	{
 		name: "0.225% Sodium Chloride",
@@ -40,7 +43,8 @@ const fluids = [
 		containsElectrolytes: [ {electrolyte: "Sodium", amount: 38.5, unit: "mEq", per: {vol: 1, type: "L"} },
 						{electrolyte: "Chloride", amount: 38.5, unit: "mEq", per: {vol: 1, type: "L"} }
 						],
-		osmolarity: { value: 77, unit: "mOsm", per: {vol: 1, type: "L"} }
+		osmolarity: { value: 77, unit: "mOsm", per: {vol: 1, type: "L"} },
+		hasCaloricValue: null
 	},
 	{
 		name: "Dextrose 5% in Water",
